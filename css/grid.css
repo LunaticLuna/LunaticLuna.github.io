@@ -67,3 +67,6 @@
 .col-12 {
     width: 100%;
 }
+.red{
+    border: 1px solid red !important;
+}
