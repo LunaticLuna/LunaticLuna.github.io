@@ -57,7 +57,7 @@ function toggleCursor(){
   }
   toggle = !toggle;
 }
-timer = setInterval(addChar,120);
+timer = setInterval(addChar,100);
 
 
 
