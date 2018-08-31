@@ -1,7 +1,7 @@
 var cons = document.getElementById("typewriter-content");
 var text = "Hello there,\nMy name is Jay Li,"
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-text += "\nI'm a Front-end developer\nScroll down to know more";
+text += "\nI'm a Front-end developer,\nScroll down to know more ;)";
 var lineArr = text.split("\n");
 var TextArrs = [];
 var toggle = true;

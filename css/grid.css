@@ -19,7 +19,7 @@
 .row {
     width: 100%;
     margin: auto;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
     display: flex;
     justify-content: center;
     text-align: center;
@@ -60,7 +60,4 @@
 }
 .col-12 {
     width: 100%;
-}
-.red{
-    border: 1px solid red !important;
 }
