@@ -14,13 +14,7 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin-top:50px;
-    /*max-width: 1200px;*/
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .row {
     width: 100%;
