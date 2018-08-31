@@ -59,7 +59,7 @@ nav{
     width: 83.33%;
     top: 50%;
     transform: translateY(-50%);
-    line-height:1.5;
+    line-height:1.25;
     text-align: left;
     margin-top: 80px;
     position: relative;
@@ -68,14 +68,15 @@ nav{
 }
 @media only screen and (max-width: 500px){
     #typewriter-content{
+    margin-top: 80px;
     width: 91.66%;
     top: 50%;
     transform: translateY(-50%);
-    line-height:2;
+    line-height:2.5;
     text-align: left;
-    margin-top: 80px;
+
     position: relative;
-    font-size: 25px;
+    font-size: 23px;
 }
 }
 /*#cursor{
