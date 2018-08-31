@@ -1,5 +1,7 @@
 var cons = document.getElementById("typewriter-content");
-var text = "Hello,\nMy name is\nJay Li"
+var text = "Hello there,\nMy name is\nJay Li"
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+text += "\nFront-end developer\nScroll down to know more";
 var lineArr = text.split("\n");
 var TextArrs = [];
 var toggle = true;
@@ -55,7 +57,7 @@ function toggleCursor(){
   }
   toggle = !toggle;
 }
-timer = setInterval(addChar,200);
+timer = setInterval(addChar,120);
 
 
 

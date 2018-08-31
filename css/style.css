@@ -53,15 +53,30 @@ nav{
     color: green;
     font-size: 1.5em;
 }
-#typewriter-content{
+
+@media only screen and (min-width: 500px){
+    #typewriter-content{
     width: 83.33%;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height:1.5;
     text-align: left;
     margin-top: 80px;
     position: relative;
-    font-size: 80px;
-
-/*    top: 30%;
-    left: 10%;*/
+    font-size: 40px;
+}
+}
+@media only screen and (max-width: 500px){
+    #typewriter-content{
+    width: 83.33%;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height:2;
+    text-align: left;
+    margin-top: 80px;
+    position: relative;
+    font-size: 25px;
+}
 }
 /*#cursor{
     position: absolute;
