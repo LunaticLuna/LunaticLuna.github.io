@@ -68,7 +68,7 @@ nav{
 }
 @media only screen and (max-width: 500px){
     #typewriter-content{
-    width: 83.33%;
+    width: 91.66%;
     top: 50%;
     transform: translateY(-50%);
     line-height:2;
