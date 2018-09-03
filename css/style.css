@@ -1,3 +1,4 @@
+
 body{
 /*    background: #333333;
 */    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
@@ -20,7 +21,7 @@ header{
     color: #f1f1f1;
 }
 h1{
-    margin-top: 80px;
+    margin-top: 70px;
 }
 @media only screen and (min-width: 600px){
     nav{
@@ -110,7 +111,15 @@ h1{
 .header{
     margin:0;
 }
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+.section-header{
 
-
-
+}
+.projects{
+    /*margin:10px;*/
+    padding-bottom: 7%;
+}
 
