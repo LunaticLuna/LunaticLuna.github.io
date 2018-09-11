@@ -3,9 +3,9 @@
 } 
 
 body{
-    background: #AAAAAA;
-    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
-    color:#FFFFFF;
+    background: #E1E3E4;
+    font-family: 'Noto Sans', sans-serif;
+    color:#444444;
     margin: 0;
     padding: 0;
 
@@ -25,6 +25,7 @@ header{
 }
 h1{
     margin-top: 70px;
+    padding:20px 0;
 }
 @media only screen and (min-width: 600px){
     nav{
@@ -132,16 +133,16 @@ h1{
     margin:3px;
 }
 .project-link{
-    background:#ffeddb;
+    /*background:#EECFE3;*/
     color:#333333;
     font-weight: bold;
-    font-size:15;
+    font-size:18;
     /*margin-left: 10px;*/
     margin-right: 10px;
     padding: 5px 2%;
     border-radius: 3px;
     text-decoration: none;
-    box-shadow: 3px 4px 10px 0 rgba(46, 61, 73, 0.5);
+    /*box-shadow: 3px 4px 10px 0 rgba(46, 61, 73, 0.5);*/
 
 
     
@@ -149,15 +150,14 @@ h1{
 
 }
 .project-link:hover{
-    background: #333333;
-    color: #ffeddb;
+    filter: invert(50%);
     text-decoration: underline;
    
 
 
 }
 .project-link:hover .github-img{
-    filter: invert(100%);
+    
 }
 .github-img{
     position: absolute;
@@ -166,7 +166,7 @@ h1{
     /*margin-top:auto;
     margin-bottom:auto;*/
     /*padding-top: px;*/
-    width:20px;
+    width:23px;
     height:auto;
 }
 .text-link{
@@ -176,7 +176,7 @@ h1{
 .email-icon{
     position:absolute;
     max-height: 100%;
-    filter: invert(100%);
+    filter: invert(40%);
     width:27px;
     padding-left: 2px;
     height:auto;
@@ -185,7 +185,7 @@ h1{
 }
 .github-icon{
     position:absolute;
-    filter: invert(100%);
+    filter: invert(40%);
     width:25px;
     height:auto;
     /*margin:auto;*/
@@ -193,7 +193,7 @@ h1{
 }
 .phone-icon{
     position:absolute;
-    filter: invert(100%);
+    filter: invert(40%);
     width:25px;
     height:auto;
     /*margin:auto;*/
@@ -201,7 +201,7 @@ h1{
 }
 .pin-icon{
     position:absolute;
-    filter: invert(100%);
+    filter: invert(40%);
     width:25px;
     height:auto;
     /*margin:auto;*/
@@ -225,7 +225,7 @@ h1{
 .email-text{
     /*position:absolute;*/
     margin-left: 60px;
-    color:#FFFFFF;
+    color:#555555;
     text-decoration: none;
     font-size:18;
 
@@ -237,9 +237,7 @@ h1{
     min-height: 700px;
 
 }
-h1{
-    color: #ffffff;
-}
+
 #contact{
     height:10vh;
 }
@@ -257,24 +255,32 @@ h1{
     width:100%;
     height:auto;
     min-height: 200px;
-    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.3);
     display: flex;
     position:relative;
     border-radius: 10px;
 
 }
-.project-pic{
-    margin:5px;
-    max-width: 40%;
-    height:auto;
-    float: left;
-    clear:left;
-    display: block;
-    border-radius: 10px;
+@media only screen and (min-width: 700px){
+    .project-pic{
+        /*margin:5px;*/
+        max-width: 40%;
+        height:auto;
+        float: left;
+        clear:left;
+        display: block;
+        border-radius: 10px 0 0 10px;
+    }
 }
+@media only screen and (max-width: 700px){
+     .project-pic{
+        display:none;
+    }
+}
+
 .project-contents{
     margin:30px;
-    color:#333333;
+    color:#555555;
     text-align: left;
 
     position:relative;
@@ -286,6 +292,6 @@ h1{
 
 }
 .project-contents h2{
-    margin-top:40px;
+    margin-top:30px;
     margin-bottom: 50px;
 }
